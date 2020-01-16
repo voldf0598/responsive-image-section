@@ -59,7 +59,6 @@ p {
   background-color: #e2e2e2;
 }
 
-
 a {
   text-decoration: none;
   color: #fff;
@@ -87,28 +86,30 @@ img {
   }
 
 }
+
 @media only screen and (min-width: 38em) {
 
-    html {
-      font-size: 110%;
-      line-height: 1.4;
-    }
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
-    body {
-      align-items: center;
-    }
+  body {
+    align-items: center;
+  }
 
-    .content {
-      display: flex;
-      flex-flow: column;
-      flex-wrap: wrap;
-      max-width: 50em;
-    }
+  .content {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    max-width: 50em;
+  }
 
-    .img-flex {
-      display: inline-block;
-      max-width: 50%;
-    }
+  .img-flex {
+    display: inline-block;
+    max-width: 50%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -117,13 +118,13 @@ img {
     font-size: 120%;
     line-height: 1.5;
   }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
-    font-size: 120%;
-    line-height: 1.5;
+    font-size: 130%;
   }
 
 }
